@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title></title>
+</head>
+<body class="text-center" style="background-color: black; background-size: cover; background-repeat: no-repeat;">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+   
+      <main role="main" class="">
+        <h1 class=" py-5 h-20 d-inline text-white display-2">Welcome </h1>
+        <h2 class="py-5 h-20 d-inline text-primary display-2">{{.Name}}</h2>
+        
+        <h3 class="py-5 text-white display-5">Thank you for logging in to the page.</h3>
+        <p class="py-5 text-white display-5"></p>
+        <form action="/logout" method="post">
+          <button class="m-5 btn btn-lg btn-primary">Log out</button>
+        </form>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  
+
+</body>
+</html>
